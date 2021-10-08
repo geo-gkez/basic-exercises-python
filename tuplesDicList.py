@@ -1,6 +1,6 @@
 fname = input('Enter File: ')
 
-if len(fname) <1 : fname ='clown.txt'
+if len(fname) <1 : fname ='odyssey.txt'
 hand = open(fname)
 
 di = dict()
@@ -21,7 +21,7 @@ for k,v in di.items():
     newt =(v,k)
     tmp.append(newt)
 
-# print("Flipped: ",tmp)
+#print("Flipped: ",tmp)
 
 tmp =sorted(tmp,reverse=True)
 # print("Sorted: ",tmp)

@@ -1,6 +1,6 @@
 fname = input('Enter File: ')
 
-if len(fname) <1 : fname ='clown.txt'
+if len(fname) <1 : fname ='odyssey.txt'
 text = open(fname)
 
 data = text.read()
