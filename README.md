@@ -7,3 +7,7 @@
 ### Count words in a text file [tuplesDicList.py](tuplesDicList)
 - example for tuples list and dictionaries 
 - find common words
+
+### Create a simple server and client with python (/simpleServerClient)
+- simpleServerClient/server.py
+- simpleServerClient/client.py
