@@ -11,3 +11,6 @@
 ### Create a simple server and client with python (/simpleServerClient)
 - simpleServerClient/server.py
 - simpleServerClient/client.py
+
+### Map function Python
+- useMapFunction.py
