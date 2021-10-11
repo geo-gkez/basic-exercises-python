@@ -14,3 +14,7 @@
 
 ### Map function Python
 - useMapFunction.py
+
+### Lambda and List Comprehensions
+- lambaFunction.py
+- listComprehensions.py
