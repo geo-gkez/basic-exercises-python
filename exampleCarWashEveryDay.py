@@ -22,6 +22,11 @@ def washCar(money:int):
         
 
     print('you can wash your car for {} days on the row.'.format(countDay))
-   
 
-washCar(5);
+try:  
+    money = int(input('Enter money you want to spend: '))
+    washCar(money)
+except:
+    print('Insert integer ...')
+
+
