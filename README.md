@@ -18,3 +18,7 @@
 ### Lambda and List Comprehensions
 - lambaFunction.py
 - listComprehensions.py
+
+### DataManipulation
+- NumPy
+- Regular_Expressions
