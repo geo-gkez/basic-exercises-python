@@ -20,3 +20,34 @@ student_df = student_df.set_index('Name')
 # outer join (union)
 merge=pd.merge(staff_df,student_df,how='outer',left_index=True,right_index=True)
 print(merge)
+
+print("#############################################")
+print()
+
+# inner
+inner_merge=pd.merge(staff_df,student_df,how='inner',left_index=True,right_index=True)
+print(inner_merge)
+
+print("#############################################")
+print()
+# left join
+left_join_merge=pd.merge(staff_df,student_df,how='left',left_index=True,right_index=True)
+print(left_join_merge)
+
+print("#############################################")
+print()
+# right join
+right_join_merge=pd.merge(staff_df,student_df,how='right',left_index=True,right_index=True)
+print(right_join_merge)
+
+print("#############################################")
+print()
+
+staff_df=staff_df.reset_index()
+student_df=student_df.reset_index()
+
+merge_with_on=pd.merge(staff_df,student_df,how='right',on='Name')
+
+print(merge_with_on)
+print("#############################################")
+print()

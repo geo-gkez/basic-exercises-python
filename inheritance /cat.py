@@ -1,6 +1,6 @@
 from animal import *
 
-class Cat():
+class Cat:
 
     cat_count=0
     
